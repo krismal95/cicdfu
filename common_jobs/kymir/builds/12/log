@@ -1,0 +1,89 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace /var/lib/jenkins/jobs/kymir/workspace
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://gitorious.org/kumir2/kumir2.git # timeout=10
+Fetching upstream changes from https://gitorious.org/kumir2/kumir2.git
+ > git --version # timeout=10
+ > git -c core.askpass=true fetch --tags --progress https://gitorious.org/kumir2/kumir2.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 24cc1726d7cf55a2503f77905e37f0be3eda0b6e (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 24cc1726d7cf55a2503f77905e37f0be3eda0b6e
+ > git rev-list 24cc1726d7cf55a2503f77905e37f0be3eda0b6e # timeout=10
+[workspace] $ /bin/sh -xe /tmp/hudson2290319223000535466.sh
++ cd build
++ cmake ..
+-- The CXX compiler identification is GNU 4.8.2
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Found Qt4: /usr/bin/qmake-qt4 (found suitable version "4.8.6", minimum required is "4.7.0") 
+-- Found Qt4: /usr/bin/qmake-qt4 (found suitable version "4.8.6", minimum required is "4.7.0") 
+CMake Warning at src/shared/dataformats/CMakeLists.txt:37 (message):
+  QCA library not found! Signing and verifying programs will disabled!
+
+
+-- Found Qt4: /usr/bin/qmake-qt4 (found suitable version "4.8.6", minimum required is "4.7.0") 
+-- Found Qt4: /usr/bin/qmake-qt4 (found suitable version "4.8.6", minimum required is "4.7.0") 
+-- Found Qt4: /usr/bin/qmake-qt4 (found suitable version "4.8.6", minimum required is "4.7.0") 
+-- DocBookViewer will be build as a part of Kumir
+-- Found Qt4: /usr/bin/qmake-qt4 (found suitable version "4.8.6", minimum required is "4.7.0") 
+-- Llvm_LIBRARIES (missing:  Llvm_DEFINITIONS Llvm_INCLUDE_DIR) 
+-- Could NOT find PythonLibs (missing:  PYTHON_LIBRARIES PYTHON_INCLUDE_DIRS) (Required is at least version "3.2")
+-- Found Qt4: /usr/bin/qmake-qt4 (found suitable version "4.8.6", minimum required is "4.7.0") 
+-- Found Qt4: /usr/bin/qmake-qt4 (found suitable version "4.8.6", minimum required is "4.7.0") 
+-- Found Qt4: /usr/bin/qmake-qt4 (found suitable version "4.8.6", minimum required is "4.7.0") 
+-- Found Qt4: /usr/bin/qmake-qt4 (found suitable version "4.8.6", minimum required is "4.7.0") 
+-- Found Qt4: /usr/bin/qmake-qt4 (found suitable version "4.8.6", minimum required is "4.7.0") 
+-- Found Qt4: /usr/bin/qmake-qt4 (found suitable version "4.8.6", minimum required is "4.7.0") 
+-- Found Qt4: /usr/bin/qmake-qt4 (found suitable version "4.8.6", minimum required is "4.7.0") 
+-- Found Qt4: /usr/bin/qmake-qt4 (found suitable version "4.8.6", minimum required is "4.7.0") 
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.6", minimum required is "2.6.0") 
+-- Found Qt4: /usr/bin/qmake-qt4 (found suitable version "4.8.6", minimum required is "4.7.0") 
+-- Found Qt4: /usr/bin/qmake-qt4 (found suitable version "4.8.6", minimum required is "4.7.0") 
+CMake Warning at src/plugins/CMakeLists.txt:34 (message):
+  LLVM developer libraries not found, building of LLVM support disabled
+
+
+-- Found Qt4: /usr/bin/qmake-qt4 (found suitable version "4.8.6", minimum required is "4.7.0") 
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.6", minimum required is "2.6") 
+-- Found Qt4: /usr/bin/qmake-qt4 (found suitable version "4.8.6", minimum required is "4.7.0") 
+-- Found Qt4: /usr/bin/qmake-qt4 (found suitable version "4.8.6", minimum required is "4.7.0") 
+-- Found Qt4: /usr/bin/qmake-qt4 (found suitable version "4.8.6", minimum required is "4.7.0") 
+-- Found Qt4: /usr/bin/qmake-qt4 (found suitable version "4.8.6", minimum required is "4.7.0") 
+-- Found Qt4: /usr/bin/qmake-qt4 (found suitable version "4.8.6", minimum required is "4.7.0") 
+-- Found Qt4: /usr/bin/qmake-qt4 (found suitable version "4.8.6", minimum required is "4.7.0") 
+-- Found Qt4: /usr/bin/qmake-qt4 (found suitable version "4.8.6", minimum required is "4.7.0") 
+-- Found Qt4: /usr/bin/qmake-qt4 (found suitable version "4.8.6", minimum required is "4.7.0") 
+-- Found Qt4: /usr/bin/qmake-qt4 (found suitable version "4.8.6", minimum required is "4.7.0") 
+-- Found Qt4: /usr/bin/qmake-qt4 (found suitable version "4.8.6", minimum required is "4.7.0") 
+-- Found Qt4: /usr/bin/qmake-qt4 (found suitable version "4.8.6", minimum required is "4.7.0") 
+-- Found Qt4: /usr/bin/qmake-qt4 (found suitable version "4.8.6", minimum required is "4.7.0") 
+-- Found Qt4: /usr/bin/qmake-qt4 (found suitable version "4.8.6", minimum required is "4.7.0") 
+-- Found Qt4: /usr/bin/qmake-qt4 (found suitable version "4.8.6", minimum required is "4.7.0") 
+-- Found Qt4: /usr/bin/qmake-qt4 (found suitable version "4.8.6", minimum required is "4.7.0") 
+-- Found Qt4: /usr/bin/qmake-qt4 (found suitable version "4.8.6", minimum required is "4.7.0") 
+-- Found Qt4: /usr/bin/qmake-qt4 (found suitable version "4.8.6", minimum required is "4.7.0") 
+-- Found Qt4: /usr/bin/qmake-qt4 (found suitable version "4.8.6", minimum required is "4.7.0") 
+-- Found Qt4: /usr/bin/qmake-qt4 (found suitable version "4.8.6", minimum required is "4.7.0") 
+-- Could NOT find PythonLibs (missing:  PYTHON_LIBRARIES PYTHON_INCLUDE_DIRS) (Required is at least version "3.2")
+-- Llvm_LIBRARIES (missing:  Llvm_DEFINITIONS Llvm_INCLUDE_DIR) 
+-- Found Qt4: /usr/bin/qmake-qt4 (found suitable version "4.8.6", minimum required is "4.7.0") 
+CMake Warning at src/app/CMakeLists.txt:127 (message):
+  LLVM developer libraries not found, building of LLVM support disabled
+
+
+-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.8") 
+-- Found Qt4: /usr/bin/qmake-qt4 (found suitable version "4.8.6", minimum required is "4.7.0") 
+-- Found Qt4: /usr/bin/qmake-qt4 (found suitable version "4.8.6", minimum required is "4.7.0") 
+-- Found Qt4: /usr/bin/qmake-qt4 (found suitable version "4.8.6", minimum required is "4.7.0") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /var/lib/jenkins/jobs/kymir/workspace
++ make
+make: *** No targets specified and no makefile found.  Stop.
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

@@ -1,0 +1,55 @@
+Started by upstream project "[8mha:AAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZO/az8JP2CIkN9AG46F+G+AAAA[0mpr1" build number [8mha:AAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBi79rPwk/YIiQ31DAH4Wu1G/AAAA[0m1
+originally caused by:
+ Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+[EnvInject] - Loading node environment variables.
+Building remotely on [8mha:AAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eCcxLJUQwAO88z1xQAAAA==[0mSlave1 in workspace /home/kpolulyah/jenkins/workspace/pr1/default
+[default] $ /bin/sh -xe /tmp/hudson2199016977267734498.sh
++ env
+BUILD_URL=http://localhost:8080/job/pr1/default/1/
+HUDSON_SERVER_COOKIE=596f3c9dcd38b4eb
+SHELL=/bin/bash
+SSH_CLIENT=172.18.66.36 36370 22
+BUILD_TAG=jenkins-pr1-default-1
+QTDIR=/usr/lib64/qt-3.3
+QTINC=/usr/lib64/qt-3.3/include
+WORKSPACE=/home/kpolulyah/jenkins/workspace/pr1/default
+JOB_URL=http://localhost:8080/job/pr1/default/
+USER=kpolulyah
+LD_LIBRARY_PATH=/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.34.x86_64/jre/lib/amd64/server:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.34.x86_64/jre/lib/amd64:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.34.x86_64/jre/../lib/amd64
+BUILD_CAUSE_UPSTREAMTRIGGER=true
+NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat
+JENKINS_HOME=/var/lib/jenkins
+PATH=/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin
+MAIL=/var/mail/kpolulyah
+_=/bin/env
+PWD=/home/kpolulyah/jenkins/workspace/pr1/default
+HUDSON_URL=http://localhost:8080/
+LANG=en_US.UTF-8
+JOB_NAME=pr1/default
+BUILD_DISPLAY_NAME=#1
+XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt
+JENKINS_URL=http://localhost:8080/
+BUILD_CAUSE=UPSTREAMTRIGGER
+BUILD_ID=1
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+HOME=/home/kpolulyah
+SHLVL=2
+JENKINS_SERVER_COOKIE=596f3c9dcd38b4eb
+EXECUTOR_NUMBER=2
+NODE_LABELS=Slave1
+LOGNAME=kpolulyah
+QTLIB=/usr/lib64/qt-3.3/lib
+CVS_RSH=ssh
+HUDSON_HOME=/var/lib/jenkins
+SSH_CONNECTION=172.18.66.36 36370 172.26.12.4 22
+parameter=1
+NODE_NAME=Slave1
+BAR=15
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+BUILD_NUMBER=1
+HUDSON_COOKIE=9f5e03c5-288c-47f6-b3d6-a453978705d6
+G_BROKEN_FILENAMES=1
+[default] $ /bin/sh -xe /tmp/hudson8457329872707964324.sh
++ echo the value of bar is 15
+the value of bar is 15
+Finished: SUCCESS

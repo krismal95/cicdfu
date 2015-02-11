@@ -1,0 +1,20 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace /var/lib/jenkins/jobs/kymir/workspace
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://gitorious.org/kumir2/kumir2.git # timeout=10
+Fetching upstream changes from https://gitorious.org/kumir2/kumir2.git
+ > git --version # timeout=10
+ > git -c core.askpass=true fetch --tags --progress https://gitorious.org/kumir2/kumir2.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/2.1^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/2.1^{commit} # timeout=10
+Checking out Revision 303083256fbc11d554b2f2c367e4257ddeeffdd6 (refs/remotes/origin/2.1)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 303083256fbc11d554b2f2c367e4257ddeeffdd6
+ > git rev-list 303083256fbc11d554b2f2c367e4257ddeeffdd6 # timeout=10
+[workspace] $ /bin/sh -xe /tmp/hudson142133691977670344.sh
++ cmake ..
+CMake Error: The source directory "/var/lib/jenkins/jobs/kymir" does not appear to contain CMakeLists.txt.
+Specify --help for usage, or press the help button on the CMake GUI.
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

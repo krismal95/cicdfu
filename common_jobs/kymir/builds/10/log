@@ -1,0 +1,19 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace /var/lib/jenkins/jobs/kymir/workspace
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://gitorious.org/kumir2/kumir2.git # timeout=10
+Fetching upstream changes from https://gitorious.org/kumir2/kumir2.git
+ > git --version # timeout=10
+ > git -c core.askpass=true fetch --tags --progress https://gitorious.org/kumir2/kumir2.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 24cc1726d7cf55a2503f77905e37f0be3eda0b6e (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 24cc1726d7cf55a2503f77905e37f0be3eda0b6e
+ > git rev-list 24cc1726d7cf55a2503f77905e37f0be3eda0b6e # timeout=10
+[workspace] $ /bin/sh -xe /tmp/hudson3903584708769823503.sh
++ mkdir build
+mkdir: cannot create directory ‘build’: File exists
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

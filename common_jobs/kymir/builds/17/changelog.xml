@@ -1,0 +1,97 @@
+commit 4fc1520b015e42ae593c8f596059e3ee9ce256c0
+tree 73d6102fea6979778a552680dc8ab0c649d1de96
+parent 6c1c2d189766cc2e22ac6a45c3d03afa5fdfc86c
+author Victor Yacovlev <v.yacovlev@gmail.com> 1422980595 +0300
+committer Victor Yacovlev <v.yacovlev@gmail.com> 1422980595 +0300
+
+    Fixed #kumir2-1749
+
+:100644 100644 b91970642d8afccb2c905dc53d684c548c484fd8 f76b60c8a99ea7c9004a78d0f46c752deb1d465d M	src/plugins/editor/editorplane.cpp
+
+commit 6c1c2d189766cc2e22ac6a45c3d03afa5fdfc86c
+tree bb13c7ed36c594866eb9fe4a8b79b98f3c40cd1f
+parent 002adeafcdf946dc64df38b50a9e71dcb57ba688
+author Victor Yacovlev <v.yacovlev@gmail.com> 1422980009 +0300
+committer Victor Yacovlev <v.yacovlev@gmail.com> 1422980009 +0300
+
+    Fixed #kumir2-1831
+
+:100644 100644 2b8bae07c424f163d784cc21a8db71a6823e1c63 b9154a4d56de8f842d16f21c352a6a9c5add7a52 M	src/plugins/kumiranalizer/syntaxanalizer.cpp
+
+commit c7e835f5d0a429a8621a7cc70ab83c5b2188d132
+tree de695037fb41922d2520556e6992050fd0000f83
+parent 422ee0374e274d809ffd35a459b943b82df46844
+author Victor Yacovlev <v.yacovlev@gmail.com> 1422977051 +0300
+committer Victor Yacovlev <v.yacovlev@gmail.com> 1422977051 +0300
+
+    Fixed #kumir2-1814
+
+:100644 100644 e638945e44157aee9b72a01cf6b931574bcf715e 3f4fe04b5ae1c03853715a20c0446a4728eb565d M	share/kumir2/kumiranalizer/messages.csv
+:100644 100644 d5e9e042aa5c9b819cf939ee4d8f76c20de103b1 2b8bae07c424f163d784cc21a8db71a6823e1c63 M	src/plugins/kumiranalizer/syntaxanalizer.cpp
+
+commit 36703ae68e218eafe0ad66d2ac2485e32b18adcf
+tree 16bf00fe98e7f7dda2aaa99ca3de3b8f19fed9e6
+parent 422ee0374e274d809ffd35a459b943b82df46844
+author Denis Khachko <mordol@lpm.org.ru> 1422975940 +0300
+committer Denis Khachko <mordol@lpm.org.ru> 1422975940 +0300
+
+    no message
+
+:100644 100644 7cfe0bf7db2a649df71d819e89086154909f549e 9c4959605f155ec082f842a7f50c3c7aa72ebbf8 M	src/plugins/coregui/kumirprogram.cpp
+:100644 100644 b5d7eb2499c6fc0176abe8a7bc6f3f5c42f86537 1388ce846886b069b75ef0081fbd074a0c1e0860 M	src/plugins/coursemanager/coursemanager_plugin.cpp
+
+commit 422ee0374e274d809ffd35a459b943b82df46844
+tree 6920b0c767908d7fcf66ce875922517c970e0b31
+parent e2ec6fa472c957b860078d1d813a5355fcbb2529
+author Victor Yacovlev <v.yacovlev@gmail.com> 1422974793 +0300
+committer Victor Yacovlev <v.yacovlev@gmail.com> 1422974793 +0300
+
+    Implemented course manager program source dir
+
+:100644 100644 8748fb251ea3e5c4e249f5618156245996247d39 7cfe0bf7db2a649df71d819e89086154909f549e M	src/plugins/coregui/kumirprogram.cpp
+:100644 100644 39bb2828fff6c849b11c89f41c70755096c3b23e cea4fcc56c42986b4420aa35da3bd6b76bbb4b51 M	src/plugins/coregui/mainwindow.cpp
+
+commit 2b656051667e2f67efcffd19469bd5055abd2a7b
+tree a166ead00d1e61abc8ecf18b1a77e9da05870dc0
+parent 9b608971c1fd420902233e102e2601d2e2a1cf4e
+author Denis Khachko <mordol@lpm.org.ru> 1422973967 +0300
+committer Denis Khachko <mordol@lpm.org.ru> 1422973967 +0300
+
+    Course setScheme("Course");
+
+:100644 100644 1c24752f38ace2b3e3e4a1da95ba04ba8096e156 b5d7eb2499c6fc0176abe8a7bc6f3f5c42f86537 M	src/plugins/coursemanager/coursemanager_plugin.cpp
+
+commit 2fed9228c29411f5ef74ffbab9e8fc89a4b8d96e
+tree ac5be28e4ce94772dd1932c4744646122e793293
+parent 23fcb4ca5868b213455fca821840dbcba80b3be7
+author Victor Yacovlev <v.yacovlev@gmail.com> 1422972881 +0300
+committer Victor Yacovlev <v.yacovlev@gmail.com> 1422972881 +0300
+
+    Fixed unneccessary horizontal scroll by 1 char
+
+:100644 100644 6d40bb958c620e6e2a3232bd78492b346b5303a5 2eda61a94cf889c943e6e0382867f53f4ec81e41 M	src/plugins/coregui/terminal_onesession.cpp
+
+commit 871592873b0329ed4163e3bc6a6f1cc30cd00eec
+tree e17c71ffd860457351f7025a65a9a38b05b1a790
+parent 24cc1726d7cf55a2503f77905e37f0be3eda0b6e
+author Victor Yacovlev <v.yacovlev@gmail.com> 1422972548 +0300
+committer Victor Yacovlev <v.yacovlev@gmail.com> 1422972548 +0300
+
+    Fixed #kumir2-1861
+
+:100644 100644 6c6a6dbd426181ce1c246d038dce64a7ee679b1c 6d40bb958c620e6e2a3232bd78492b346b5303a5 M	src/plugins/coregui/terminal_onesession.cpp
+:100644 100644 8bcc82dc8b4cc2a5f1ee7fae3e070f43a384dca5 b3208a46297e910b500b3c041c9b58c979d17ffa M	src/plugins/coregui/terminal_onesession.h
+:100644 100644 dab3525afd8ad0f184466435a2092b9602125770 f2a075551ca1e3d3dbc7973c8e77f03f6aa529af M	src/plugins/coregui/terminal_plane.cpp
+
+commit c2666953b5fc6419ab3226048ffb3e06a8a8ad36
+tree dcec0657d38e4cb0a265a6bc9858b0847e64a9af
+parent b259cc0b6ba07855bb12654141aea6234cd6f4cb
+author Denis Khachko <mordol@lpm.org.ru> 1422969166 +0300
+committer Denis Khachko <mordol@lpm.org.ru> 1422969166 +0300
+
+    Course file path.
+
+:100644 100644 7b672e66a88492decd83344294ff702ce6cef8e2 0d92cfaa874cd5f9fb589b6e69d0666e7b24dfe2 M	src/actors/grasshopper/pult.cpp
+:100644 100644 a0cf480f47009dad1148073cc9d0728f2383f762 1c24752f38ace2b3e3e4a1da95ba04ba8096e156 M	src/plugins/coursemanager/coursemanager_plugin.cpp
+:100644 100644 1dbee61837f99eb55c0763954893b3a9ec792e4c 39197c7ab98c8a52b14e9a0c658a538b12bbf7ca M	src/plugins/coursemanager/task/mainwindow.h
+:100644 100644 c3374d07b718272f0cb1e3e819f0ff6f7373915b bb7a96e44bff270447ab0099c43b9453f5d5e36f M	src/tools/courseeditor/mainwindow.h

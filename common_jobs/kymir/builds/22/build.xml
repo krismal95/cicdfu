@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.ParametersAction>
+      <parameters class="java.util.Arrays$ArrayList">
+        <a class="hudson.model.ParameterValue-array">
+          <hudson.model.StringParameterValue>
+            <name>jobs</name>
+            <description></description>
+            <value>QT</value>
+          </hudson.model.StringParameterValue>
+          <org.jvnet.jenkins.plugins.nodelabelparameter.NodeParameterValue plugin="nodelabelparameter@1.5.1">
+            <name>hostn</name>
+            <description></description>
+            <label>master</label>
+            <nextLabels/>
+          </org.jvnet.jenkins.plugins.nodelabelparameter.NodeParameterValue>
+          <hudson.model.TextParameterValue>
+            <name>repo</name>
+            <description></description>
+            <value></value>
+          </hudson.model.TextParameterValue>
+        </a>
+      </parameters>
+    </hudson.model.ParametersAction>
+    <hudson.model.CauseAction>
+      <causes>
+        <hudson.model.Cause_-UpstreamCause>
+          <upstreamProject>pr2/default</upstreamProject>
+          <upstreamUrl>job/pr2/default/</upstreamUrl>
+          <upstreamBuild>5</upstreamBuild>
+          <upstreamCauses>
+            <hudson.model.Cause_-UpstreamCause>
+              <upstreamProject>pr2</upstreamProject>
+              <upstreamUrl>job/pr2/</upstreamUrl>
+              <upstreamBuild>5</upstreamBuild>
+              <upstreamCauses>
+                <hudson.model.Cause_-UserIdCause/>
+              </upstreamCauses>
+            </hudson.model.Cause_-UpstreamCause>
+          </upstreamCauses>
+        </hudson.model.Cause_-UpstreamCause>
+      </causes>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.envinject.EnvInjectPluginAction plugin="envinject@1.90">
+      <build class="build" reference="../../.."/>
+    </org.jenkinsci.plugins.envinject.EnvInjectPluginAction>
+    <org.jvnet.jenkins.plugins.nodelabelparameter.LabelBadgeAction plugin="nodelabelparameter@1.5.1">
+      <label>master</label>
+      <tooltip>Run with label [master] (node: master)</tooltip>
+    </org.jvnet.jenkins.plugins.nodelabelparameter.LabelBadgeAction>
+  </actions>
+  <timestamp>1423654832844</timestamp>
+  <startTime>1423654832845</startTime>
+  <result>FAILURE</result>
+  <duration>52</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/lib/jenkins/jobs/kymir/workspace</workspace>
+  <hudsonVersion>1.598</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</build>
