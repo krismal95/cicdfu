@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<matrix-project plugin="matrix-project@1.4">
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <com.seitenbau.jenkins.plugins.dynamicparameter.ChoiceParameterDefinition plugin="dynamicparameter@0.2.0">
+          <name>jobs</name>
+          <description></description>
+          <__uuid>46ca0a65-f463-4194-9c46-bc56f5aa703c</__uuid>
+          <__remote>false</__remote>
+          <__script>def list = [&quot;QT&quot;,&quot;Java&quot;]</__script>
+          <__localBaseDirectory serialization="custom">
+            <hudson.FilePath>
+              <default>
+                <remote>/var/lib/jenkins/dynamic_parameter/classpath</remote>
+              </default>
+              <boolean>true</boolean>
+            </hudson.FilePath>
+          </__localBaseDirectory>
+          <__remoteBaseDirectory>dynamic_parameter_classpath</__remoteBaseDirectory>
+          <__classPath></__classPath>
+          <readonlyInputField>false</readonlyInputField>
+        </com.seitenbau.jenkins.plugins.dynamicparameter.ChoiceParameterDefinition>
+        <org.jvnet.jenkins.plugins.nodelabelparameter.NodeParameterDefinition plugin="nodelabelparameter@1.5.1">
+          <name>hostn</name>
+          <description></description>
+          <allowedSlaves>
+            <string>ALL (no restriction)</string>
+          </allowedSlaves>
+          <defaultSlaves>
+            <string>master</string>
+          </defaultSlaves>
+          <triggerIfResult>allowMultiSelectionForConcurrentBuilds</triggerIfResult>
+          <allowMultiNodeSelection>true</allowMultiNodeSelection>
+          <triggerConcurrentBuilds>true</triggerConcurrentBuilds>
+          <ignoreOfflineNodes>false</ignoreOfflineNodes>
+          <nodeEligibility class="org.jvnet.jenkins.plugins.nodelabelparameter.node.AllNodeEligibility"/>
+        </org.jvnet.jenkins.plugins.nodelabelparameter.NodeParameterDefinition>
+        <hudson.model.TextParameterDefinition>
+          <name>repo</name>
+          <description></description>
+          <defaultValue></defaultValue>
+        </hudson.model.TextParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>true</concurrentBuild>
+  <axes/>
+  <builders>
+    <org.jenkinsci.plugins.conditionalbuildstep.singlestep.SingleConditionalBuilder plugin="conditional-buildstep@1.3.3">
+      <condition class="org.jenkins_ci.plugins.run_condition.core.StringsMatchCondition" plugin="run-condition@1.0">
+        <arg1>$jobs</arg1>
+        <arg2>QT</arg2>
+        <ignoreCase>false</ignoreCase>
+      </condition>
+      <buildStep class="hudson.plugins.parameterizedtrigger.TriggerBuilder" plugin="parameterized-trigger@2.25">
+        <configs>
+          <hudson.plugins.parameterizedtrigger.BlockableBuildTriggerConfig>
+            <configs>
+              <hudson.plugins.parameterizedtrigger.CurrentBuildParameters/>
+            </configs>
+            <projects>kymir</projects>
+            <condition>ALWAYS</condition>
+            <triggerWithNoParameters>false</triggerWithNoParameters>
+            <buildAllNodesWithLabel>false</buildAllNodesWithLabel>
+          </hudson.plugins.parameterizedtrigger.BlockableBuildTriggerConfig>
+        </configs>
+      </buildStep>
+      <runner class="org.jenkins_ci.plugins.run_condition.BuildStepRunner$Fail" plugin="run-condition@1.0"/>
+    </org.jenkinsci.plugins.conditionalbuildstep.singlestep.SingleConditionalBuilder>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+  <executionStrategy class="hudson.matrix.DefaultMatrixExecutionStrategyImpl">
+    <runSequentially>false</runSequentially>
+  </executionStrategy>
+</matrix-project>

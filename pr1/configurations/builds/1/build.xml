@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<matrix-run plugin="matrix-project@1.4">
+  <actions>
+    <hudson.model.ParametersAction>
+      <parameters>
+        <hudson.model.StringParameterValue>
+          <name>parameter</name>
+          <description></description>
+          <value>1</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>BAR</name>
+          <description></description>
+          <value>15</value>
+        </hudson.model.StringParameterValue>
+      </parameters>
+    </hudson.model.ParametersAction>
+    <hudson.matrix.MatrixConfiguration_-ParentBuildAction/>
+    <hudson.model.CauseAction>
+      <causes>
+        <hudson.model.Cause_-UpstreamCause>
+          <upstreamProject>pr1</upstreamProject>
+          <upstreamUrl>job/pr1/</upstreamUrl>
+          <upstreamBuild>1</upstreamBuild>
+          <upstreamCauses>
+            <hudson.model.Cause_-UserIdCause/>
+          </upstreamCauses>
+        </hudson.model.Cause_-UpstreamCause>
+      </causes>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.envinject.EnvInjectPluginAction plugin="envinject@1.90">
+      <build class="matrix-run" reference="../../.."/>
+    </org.jenkinsci.plugins.envinject.EnvInjectPluginAction>
+  </actions>
+  <timestamp>1423485088767</timestamp>
+  <startTime>1423485089408</startTime>
+  <result>SUCCESS</result>
+  <duration>3888</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn>Slave1</builtOn>
+  <workspace>/home/kpolulyah/jenkins/workspace/pr1/default</workspace>
+  <hudsonVersion>1.598</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</matrix-run>
