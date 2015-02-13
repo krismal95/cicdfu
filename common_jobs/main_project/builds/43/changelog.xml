@@ -1,0 +1,9 @@
+commit 59bafad946c378f664649d3f6bdc74218ee3edcf
+tree 4d525724a9d4ce636458aa64355abfeb2f7cbe66
+parent 0157fa7d24d204bbdb3c74e18d93c3b263075a0c
+author Michael Ponomarev <devMauris@users.noreply.github.com> 1423828332 +0300
+committer Michael Ponomarev <devMauris@users.noreply.github.com> 1423828332 +0300
+
+    Generating slave names
+
+:100644 100644 4fd31fcfd1e1d8f578bf67f0fab7507d8411019a 0c5d60f6ca2424282e6bbaca6cccd46858c30495 M	project.groovy

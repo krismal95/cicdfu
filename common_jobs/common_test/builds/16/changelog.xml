@@ -1,0 +1,51 @@
+commit 9878f0a486d7fd7f54cdcb0504cee94413e6d99c
+tree f45708e4cce902c694fc969f01ec1e4bdb462264
+parent ed7ca7626003c6a66bd71284ac785ffc62e19503
+author Michael Ponomarev <devMauris@users.noreply.github.com> 1423824194 +0300
+committer Michael Ponomarev <devMauris@users.noreply.github.com> 1423824194 +0300
+
+    Generating slave names
+    
+    Based on job name and custom name
+
+:100644 100644 4bc3d3ec264ae033c1e612fa7f1e4f0eaeb7dbda b2f1fa8084895dcaf17ea496920c96a4b01b9f77 M	project.groovy
+
+commit ed7ca7626003c6a66bd71284ac785ffc62e19503
+tree 128ca1aae4de55ea154f8b6371430a955316b7fa
+parent b780a14b0106503b1a28d150a7ee1c5e459ecb01
+author devMauris <devMauris@users.noreply.github.com> 1423751990 +0300
+committer devMauris <devMauris@users.noreply.github.com> 1423751990 +0300
+
+    Generating slave names based on job name
+
+:100644 100644 0aff9e22b7d7f7ee2348dff5629699f62755bd5e 4bc3d3ec264ae033c1e612fa7f1e4f0eaeb7dbda M	project.groovy
+
+commit b780a14b0106503b1a28d150a7ee1c5e459ecb01
+tree 59dd0b4185a2184c7cc774466cae7b999f7d6a08
+parent 6b3885dc039b6296ca43d1622a9928243fb0c1ad
+author devMauris <devMauris@users.noreply.github.com> 1423751919 +0300
+committer devMauris <devMauris@users.noreply.github.com> 1423751919 +0300
+
+    Generating slave names based on job name
+
+:100644 100644 5c6de2e5924a61a89bd928bb321ac4ee637451cc 0aff9e22b7d7f7ee2348dff5629699f62755bd5e M	project.groovy
+
+commit 6b3885dc039b6296ca43d1622a9928243fb0c1ad
+tree f2a6651c3d92b8576c8c699ce3bb6ca6712e26ee
+parent dab780f163cdb077ce8ce7a337dbe97fed432511
+author devMauris <devMauris@users.noreply.github.com> 1423751854 +0300
+committer devMauris <devMauris@users.noreply.github.com> 1423751854 +0300
+
+    Generating slave names based on job name
+
+:100644 100644 b8db24a4a7ba6694aea4101c819fc6fbc0f900ff 5c6de2e5924a61a89bd928bb321ac4ee637451cc M	project.groovy
+
+commit dab780f163cdb077ce8ce7a337dbe97fed432511
+tree ff86e6dac8c69b1b1e7702dfafdbb8351f4e668c
+parent 91597ed5f41a145337d65e8539db347616a3ec48
+author devMauris <devMauris@users.noreply.github.com> 1423750662 +0300
+committer devMauris <devMauris@users.noreply.github.com> 1423750662 +0300
+
+    Generating slave names based on job name
+
+:100644 100644 773728493e64207c9d71a5b680dd265ae0d88223 b8db24a4a7ba6694aea4101c819fc6fbc0f900ff M	project.groovy

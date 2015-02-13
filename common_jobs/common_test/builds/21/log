@@ -1,0 +1,26 @@
+Started by upstream project "[8mha:AAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAweoBn6WflJ+rmJmXnxBUX5WanJJfoAzoXEsccAAAA=[0mmain_project" build number [8mha:AAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYR/az8JP3cxMy8+IKi/KzU5BJ9EzMAEiPvackAAAA=[0m46
+originally caused by:
+ Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building remotely on [8mha:AAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgZp/eT83ILSktQi/ZLU4pL44pzEslRDCAUAceRLk9AAAAA=[0mtest_slave1_slave in workspace /opt/cicdfuslave/workspace/common_test
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/devMauris/cicdfucore.git # timeout=10
+Fetching upstream changes from https://github.com/devMauris/cicdfucore.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/devMauris/cicdfucore.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 96c01afb6b1397fc300fc6a3558254ac6123a12e (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 96c01afb6b1397fc300fc6a3558254ac6123a12e
+ > git rev-list 0157fa7d24d204bbdb3c74e18d93c3b263075a0c # timeout=10
+[common_test] $ /bin/sh -xe /tmp/hudson2914858663350237310.sh
++ echo test
+test
++ echo git@github.com:devMauris/cicdfucore.git
+git@github.com:devMauris/cicdfucore.git
++ echo https://github.com/devMauris/cicdfucore.git
+https://github.com/devMauris/cicdfucore.git
++ echo test_slave1_slave
+test_slave1_slave
+Finished: SUCCESS

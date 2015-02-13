@@ -1,0 +1,26 @@
+Started by upstream project "[8mha:AAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAweoBn6WflJ+rmJmXnxBUX5WanJJfoAzoXEsccAAAA=[0mmain_project" build number [8mha:AAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYR/az8JP3cxMy8+IKi/KzU5BJ9I0sABZkKr8kAAAA=[0m29
+originally caused by:
+ Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building remotely on [8mha:AAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZR/eT83ILSktQi/eTcxOzU+OKcxLJUAI1myfXKAAAA[0mcmake_slave in workspace /opt/cicdfuslave/workspace/common_test
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/devMauris/cicdfucore.git # timeout=10
+Fetching upstream changes from https://github.com/devMauris/cicdfucore.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/devMauris/cicdfucore.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 91597ed5f41a145337d65e8539db347616a3ec48 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 91597ed5f41a145337d65e8539db347616a3ec48
+ > git rev-list 378644cd565746142d52182a574bb58200ff27ce # timeout=10
+[common_test] $ /bin/sh -xe /tmp/hudson1186131627961833289.sh
++ echo test
+test
++ echo git@github.com:devMauris/cicdfucore.git
+git@github.com:devMauris/cicdfucore.git
++ echo https://github.com/devMauris/cicdfucore.git
+https://github.com/devMauris/cicdfucore.git
++ echo cmake_slave
+cmake_slave
+Finished: SUCCESS

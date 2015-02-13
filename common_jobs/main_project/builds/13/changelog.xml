@@ -1,0 +1,9 @@
+commit 520fe5d95355b402cb8765c235173ac7c196dbdf
+tree a58c60e4047492687883c6bb16d5cf372393d040
+parent 74f8ab99f01396ac0a97d656846e22e8afccfa0e
+author devMauris <devMauris@users.noreply.github.com> 1423737568 +0300
+committer devMauris <devMauris@users.noreply.github.com> 1423737568 +0300
+
+    Basic job run
+
+:100644 100644 d48cb0c0721b248d7c2b40097dfcdffcd413a89f 29128fb8b428703dcbf3c0e179804816c51789a9 M	project.groovy
