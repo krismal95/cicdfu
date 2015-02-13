@@ -6,5 +6,6 @@ ABSOLUTE_FILENAME=`readlink -e "$0"`
 DIRECTORY=`dirname "$ABSOLUTE_FILENAME"` 
 
 sudo cp -rp $DIRECTORY/common_jobs/* $HOME_JENKINS/jobs
+sudo chown -R jenkins:jenkins $HOME_JENKINS/jobs/*
 
 sudo service jenkins start
