@@ -1,9 +1,0 @@
-commit 997f85b94cf45c3d58d55efe443063e1d4e26235
-tree 231af82701864c2d7826d8667a4e9c57a9d32801
-parent d857777d40b4e24cdfba744f510b4e5e42701a5f
-author devMauris <devmauris@gmail.com> 1423737241 +0300
-committer devMauris <devmauris@gmail.com> 1423737241 +0300
-
-    Running test job
-
-:100644 100644 1e474302146b94cc1e080b66d15e0c4569b506b0 3afb6cd0d9ecf8c6bf6afdd2b4b9a96b5f2ef451 M	project.groovy

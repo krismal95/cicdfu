@@ -1,9 +1,0 @@
-commit ed7ca7626003c6a66bd71284ac785ffc62e19503
-tree 128ca1aae4de55ea154f8b6371430a955316b7fa
-parent b780a14b0106503b1a28d150a7ee1c5e459ecb01
-author devMauris <devMauris@users.noreply.github.com> 1423751990 +0300
-committer devMauris <devMauris@users.noreply.github.com> 1423751990 +0300
-
-    Generating slave names based on job name
-
-:100644 100644 0aff9e22b7d7f7ee2348dff5629699f62755bd5e 4bc3d3ec264ae033c1e612fa7f1e4f0eaeb7dbda M	project.groovy

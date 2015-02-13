@@ -1,9 +1,0 @@
-commit 791ca45e1874bbe44f6a86ddd77204c3e6537197
-tree ca537577685e47ecea1ea4e49d7937e2d6b825f4
-parent 378644cd565746142d52182a574bb58200ff27ce
-author devMauris <devMauris@users.noreply.github.com> 1423749108 +0300
-committer devMauris <devMauris@users.noreply.github.com> 1423749108 +0300
-
-    Selecting slaves
-
-:100644 100644 89fd96b3496effd88559d9e08f63e5b1739e8cbb 540c7bf57ef2c9bf672352c24f377a0f2bbb15df M	project.groovy

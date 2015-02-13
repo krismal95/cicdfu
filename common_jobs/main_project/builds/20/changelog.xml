@@ -1,9 +1,0 @@
-commit adb657986ea9ff8b25db3909c28409fffe4f52dc
-tree 9fefee6ca072cab0ee28887dc9176f4ce81026ab
-parent 7332260f4d06dfefa133535c8942dca1db9aa4de
-author devMauris <devMauris@users.noreply.github.com> 1423739175 +0300
-committer devMauris <devMauris@users.noreply.github.com> 1423739175 +0300
-
-    Lower case common_job builds
-
-:100644 100644 dea149f980a4e0f34762a529bc28a6ad93a54ea6 147eb110a16ca3f0ccd5ce0485c847dbedbd8329 M	project.groovy
