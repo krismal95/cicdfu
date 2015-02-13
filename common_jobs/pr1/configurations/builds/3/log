@@ -1,9 +1,0 @@
-Started by upstream project "[8mha:AAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZO/az8JP2CIkN9AG46F+G+AAAA[0mpr1" build number [8mha:AAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBi79rPwk/YIiQ31jAFJ3tb+/AAAA[0m3
-originally caused by:
- Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
-[EnvInject] - Loading node environment variables.
-Building on master in workspace /var/lib/jenkins/jobs/pr1/workspace/default
-Run condition [Strings match] enabling prebuild for step [Trigger/call builds on other projects]
-Strings match run condition: string 1=[QT], string 2=["QT"]
-Run condition [Strings match] preventing perform for step [Trigger/call builds on other projects]
-Finished: SUCCESS
